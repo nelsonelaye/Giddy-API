@@ -1,7 +1,7 @@
 require("dotenv").config()
 const { config } = require("dotenv")
 const express = require("express")
-const port = process.env.PORt || 1990
+const port = process.env.PORT || 1990
 
 const server = express()
 server.use(express.json())
